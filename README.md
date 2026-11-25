@@ -139,7 +139,7 @@ Alterna entre as abas Assistindo e Favoritos. Na aba Assistindo, cada item tem o
 - [React Navigation](https://reactnavigation.org/) (abas e pilha)
 - [AsyncStorage](https://react-native-async-storage.github.io/async-storage/) (dados salvos no aparelho)
 - [@expo/vector-icons](https://docs.expo.dev/guides/icons/) (ícones)
-- [@expo-google-fonts/nunito][@expo-google-fonts/fraunces](https://github.com/expo/google-fonts) (fonte)
+- [@expo-google-fonts/nunito @expo-google-fonts/fraunces](https://github.com/expo/google-fonts) (fonte)
 
 ---
 
