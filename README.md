@@ -47,7 +47,7 @@ Projeto da **Atividade Bimestral 2**, feito com **React Native + Expo + TypeScri
 - **Assistindo:** marque o que você está vendo agora, avance ou volte o episódio atual com os botões **+** e **−** e acompanhe uma barra de progresso.
 - **Continuar assistindo:** atalho na tela inicial que leva direto ao último anime marcado como assistindo.
 - **Dados salvos no aparelho:** favoritos e progresso continuam ali mesmo depois de fechar o app.
-- **Visual fofinho:** paleta em tons de rosa, cards arredondados, sombras suaves, barra de navegação flutuante e fonte Nunito.
+- **Visual fofinho:** paleta matcha e sakura, bordas onduladas, detalhes em japonês e fontes Nunito e Fraunces.
 
 ---
 
@@ -138,9 +138,8 @@ Alterna entre as abas Assistindo e Favoritos. Na aba Assistindo, cada item tem o
 - [TypeScript](https://www.typescriptlang.org/)
 - [React Navigation](https://reactnavigation.org/) (abas e pilha)
 - [AsyncStorage](https://react-native-async-storage.github.io/async-storage/) (dados salvos no aparelho)
-- [expo-linear-gradient](https://docs.expo.dev/versions/latest/sdk/linear-gradient/) (degradê do banner)
 - [@expo/vector-icons](https://docs.expo.dev/guides/icons/) (ícones)
-- [@expo-google-fonts/nunito](https://github.com/expo/google-fonts) (fonte)
+- [@expo-google-fonts/nunito][@expo-google-fonts/fraunces](https://github.com/expo/google-fonts) (fonte)
 
 ---
 
@@ -153,8 +152,8 @@ Alterna entre as abas Assistindo e Favoritos. Na aba Assistindo, cada item tem o
 npm install
 
 # 2. Instalar as bibliotecas usadas pelo app
-npx expo install @react-native-async-storage/async-storage expo-linear-gradient expo-font react-native-screens react-native-safe-area-context
-npm install @react-navigation/native @react-navigation/native-stack @react-navigation/bottom-tabs @expo-google-fonts/nunito
+npx expo install @expo/vector-icons @react-native-async-storage/async-storage expo-font react-native-screens react-native-safe-area-context
+npm install @react-navigation/native @react-navigation/native-stack @react-navigation/bottom-tabs @expo-google-fonts/nunito @expo-google-fonts/fraunces
 
 # 3. Iniciar
 npx expo start
